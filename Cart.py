@@ -34,7 +34,7 @@ def cart():
             cart.remove(deleted_item.title())
             input('\nItem removed from cart. Press return to continue: ')
         elif prompt.lower() == 'quit':
-            print("\nThank you.")
+            print("\nThank you come again.")
             break
         else:
             input("\nInvalid. Press return to continue: ")
